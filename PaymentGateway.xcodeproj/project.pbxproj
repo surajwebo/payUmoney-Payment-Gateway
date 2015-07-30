@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		69386F641B5F89C600F0DB47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69386F631B5F89C600F0DB47 /* main.m */; };
 		69386F671B5F89C600F0DB47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69386F661B5F89C600F0DB47 /* AppDelegate.m */; };
-		69386F6A1B5F89C600F0DB47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69386F691B5F89C600F0DB47 /* ViewController.m */; };
+		69386F6A1B5F89C600F0DB47 /* PaymentPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69386F691B5F89C600F0DB47 /* PaymentPageViewController.m */; };
 		69386F6D1B5F89C700F0DB47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69386F6B1B5F89C700F0DB47 /* Main.storyboard */; };
 		69386F6F1B5F89C700F0DB47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69386F6E1B5F89C700F0DB47 /* Images.xcassets */; };
 		69386F721B5F89C700F0DB47 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69386F701B5F89C700F0DB47 /* LaunchScreen.xib */; };
 		69386F7E1B5F89C700F0DB47 /* PaymentGatewayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69386F7D1B5F89C700F0DB47 /* PaymentGatewayTests.m */; };
+		693BAA101B69F101007C5462 /* PaymentStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693BAA0F1B69F101007C5462 /* PaymentStatusViewController.m */; };
 		694DE1671B61F4AF00418CF0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 694DE1651B61F4AF00418CF0 /* Icon.png */; };
 		694DE1681B61F4AF00418CF0 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 694DE1661B61F4AF00418CF0 /* Icon@2x.png */; };
 		694DE16A1B61F51800418CF0 /* Me.png in Resources */ = {isa = PBXBuildFile; fileRef = 694DE1691B61F51800418CF0 /* Me.png */; };
@@ -35,14 +36,16 @@
 		69386F631B5F89C600F0DB47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		69386F651B5F89C600F0DB47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		69386F661B5F89C600F0DB47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		69386F681B5F89C600F0DB47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		69386F691B5F89C600F0DB47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69386F681B5F89C600F0DB47 /* PaymentPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentPageViewController.h; sourceTree = "<group>"; };
+		69386F691B5F89C600F0DB47 /* PaymentPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentPageViewController.m; sourceTree = "<group>"; };
 		69386F6C1B5F89C700F0DB47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69386F6E1B5F89C700F0DB47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		69386F711B5F89C700F0DB47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		69386F771B5F89C700F0DB47 /* PaymentGatewayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentGatewayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69386F7C1B5F89C700F0DB47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69386F7D1B5F89C700F0DB47 /* PaymentGatewayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentGatewayTests.m; sourceTree = "<group>"; };
+		693BAA0E1B69F101007C5462 /* PaymentStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentStatusViewController.h; sourceTree = "<group>"; };
+		693BAA0F1B69F101007C5462 /* PaymentStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentStatusViewController.m; sourceTree = "<group>"; };
 		694DE1651B61F4AF00418CF0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		694DE1661B61F4AF00418CF0 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		694DE1691B61F51800418CF0 /* Me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Me.png; sourceTree = "<group>"; };
@@ -89,8 +92,10 @@
 			children = (
 				69386F651B5F89C600F0DB47 /* AppDelegate.h */,
 				69386F661B5F89C600F0DB47 /* AppDelegate.m */,
-				69386F681B5F89C600F0DB47 /* ViewController.h */,
-				69386F691B5F89C600F0DB47 /* ViewController.m */,
+				69386F681B5F89C600F0DB47 /* PaymentPageViewController.h */,
+				69386F691B5F89C600F0DB47 /* PaymentPageViewController.m */,
+				693BAA0E1B69F101007C5462 /* PaymentStatusViewController.h */,
+				693BAA0F1B69F101007C5462 /* PaymentStatusViewController.m */,
 				69386F6B1B5F89C700F0DB47 /* Main.storyboard */,
 				69386F6E1B5F89C700F0DB47 /* Images.xcassets */,
 				69386F701B5F89C700F0DB47 /* LaunchScreen.xib */,
@@ -231,7 +236,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69386F6A1B5F89C600F0DB47 /* ViewController.m in Sources */,
+				69386F6A1B5F89C600F0DB47 /* PaymentPageViewController.m in Sources */,
+				693BAA101B69F101007C5462 /* PaymentStatusViewController.m in Sources */,
 				69386F671B5F89C600F0DB47 /* AppDelegate.m in Sources */,
 				69386F641B5F89C600F0DB47 /* main.m in Sources */,
 			);
